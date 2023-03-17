@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build-job:
+  stage: build
+  script:
+    - docker compose up --build -d
+  tags:
+    - DevOps
+  only:
+    - deployment

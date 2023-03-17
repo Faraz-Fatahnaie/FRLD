@@ -1,0 +1,5 @@
+dlib==19.23.0
+numpy==1.20.3
+onnx==1.10.2
+onnxruntime-gpu==1.10.0
+scikit_image==0.18.3

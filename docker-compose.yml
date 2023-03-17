@@ -1,0 +1,8 @@
+services:
+  face:
+    container_name: face
+    build: .
+    ports:
+      - 5000:5000
+    restart: always
+    
