@@ -1,8 +1,8 @@
 import onnxruntime as ort
 import numpy as np
-from face_module.tr.networks.retina.model import RetinaFace
-from face_module.tr.networks.arc_face.models import ArcFaceONNX
-from face_module.tr.utils import Face, norm_crop
+from face_module.models.networks.retina.model import RetinaFace
+from face_module.models.networks.arc_face.models import ArcFaceONNX
+from face_module.models.utils import Face, norm_crop
 from face_module.settings import (OX_RETINA_MODEL,
                                   OX_ARC_FACE_PATH,
                                   RETINA_CONF,

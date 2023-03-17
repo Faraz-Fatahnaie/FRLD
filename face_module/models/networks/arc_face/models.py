@@ -1,6 +1,6 @@
 import onnx
 import onnxruntime
-from face_module.tr import utils as face_align
+from face_module.models import utils as face_align
 import cv2
 import numpy as np
 from numpy.linalg import norm

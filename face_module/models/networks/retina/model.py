@@ -3,7 +3,7 @@ import onnxruntime
 import numpy as np
 import cv2
 
-from face_module.tr.networks.retina.utils import distance2bbox, distance2kps
+from face_module.models.networks.retina.utils import distance2bbox, distance2kps
 
 
 class RetinaFace:
