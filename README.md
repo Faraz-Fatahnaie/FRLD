@@ -1,4 +1,12 @@
-# Face verification and Detection Module with API
+# Face Recognition and Liveness Detection Module with API
+
+- RetinaNet is Used for Face Detection Backbone
+- ArcFace Obtain Highly Discriminative Features for Face Recognition
+- Liveness Detection Utilize Eye Blink Counter and Head Position Detection
+
+Following Application is Available:
+- Tkinter Windows App  
+- Flask Web App
 
 
 ![Postman API Call](Postman.png)
