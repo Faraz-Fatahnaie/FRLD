@@ -52,7 +52,6 @@ class ArcFaceONNX:
 
     def prepare(self, ctx_id, **kwargs):
         if ctx_id < 0:
-            print('==============')
             self.session.set_providers(['CPUExecutionProvider'])
 
     def get(self, img, face):
